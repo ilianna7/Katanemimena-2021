@@ -1,0 +1,205 @@
+@charset "ISO-8859-1";
+			html{min-width:100%; height:100%;}
+body{margin: 0; padding: 0; border: 0; outline: 0; min-width:100%; height:100%;}
+
+ .headerDiv{
+	background-color: #343434;
+	min-width:100%;
+	height: 20%;
+	color:white;
+	padding:  1%;
+ }
+  #headerH{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 5%;
+  }
+  #headerP{
+   margin-top: 0;
+   padding-top: 0;
+	margin-left: 5%;
+  }
+
+#mainMenu{
+	background-color: #232323;
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 33%;
+	max-height: 33%;
+	margin-left: 5%;
+}
+  
+#mainMenu li {
+  float: right;
+}
+
+#mainMenu  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 1%;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+
+#mainMenu  li a:hover {
+  background-color: #FF9A00;
+}
+ 
+#mainMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.mainDiv{
+	margin-top: 5%;
+	margin-left: 10%;
+	background-color: #464646;
+	width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+
+
+}
+
+#leftDiv{
+	
+	width:35%;
+	float: left;
+	background-color: #464646;
+	height:100%;
+	padding:1%;
+
+}
+
+#leftDiv a{
+text-decoration: none;
+	color: #E7A31A;
+	float: left;
+	margin-top: 15%;
+	margin-left: 3%;
+
+}
+
+#rightDiv{
+	float: left;
+	background-color: #343434;
+	height:100%;
+	width: 65%;
+	padding:1%
+	
+}
+
+  
+h2, .temp{
+
+	color: #8B8C8E;
+	margin-left: 3%;
+	width: 80%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #FF9A00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+	float: left;
+  width: 40%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container{
+	width: 75%;
+	margin-left: 20%;
+	color: #8B8C8E;
+	float: left;
+
+}
+
+#forgot{
+float: right;
+position: inline-block;
+text-decoration: none;
+	color: #E7A31A;
+}
+
+#forgot.hover{
+opacity: 0.8;
+}
+
+label{
+	float: left;
+}
+
+#secondDiv{
+
+background-color: white;
+width: 55%;
+
+}
+
+#footerDiv{
+background-color: #343434;
+	min-width:100%;
+	height: 7%;
+	color:white;
+	padding:  1%;
+
+}
+
+#footerDiv p{
+	float: right;
+	margin-top: 2.5%;
+	margin-right: 2%;
+}
+
+#footerDiv a{
+	
+text-decoration: none;
+	color: #E7A31A;
+	margin-top: 2.5%;
+	float: left;
+
+}
+
+
+#errorDiv{
+	    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;;
+    background-color: #8B8C8E;
+    border-color: red;
+    width: 50%;
+    text-align: center;
+    color: white;
+	
+}

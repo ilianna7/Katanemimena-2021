@@ -1,0 +1,331 @@
+@charset "ISO-8859-1";
+			html{min-width:100%; height:100%;}
+body{margin: 0; padding: 0; border: 0; outline: 0; min-width:100%; height:100%;}
+
+ .headerDiv{
+	background-color: #343434;
+	min-width:100%;
+	height: 20%;
+	color:white;
+	padding:  1%;
+ }
+  #headerH{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 5%;
+  }
+  #headerP{
+   margin-top: 0;
+   padding-top: 0;
+	margin-left: 5%;
+  }
+
+#mainMenu{
+	background-color: #232323;
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 33%;
+	max-height: 33%;
+	margin-left: 5%;
+}
+  
+#mainMenu li {
+  float: right;
+}
+
+#mainMenu  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 1%;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+
+#mainMenu  li a:hover {
+  background-color: #FF9A00;
+}
+ 
+#mainMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+
+#leftDiv{
+	
+	width:35%;
+	float: left;
+	background-color: #464646;
+	height:100%;
+	padding:1%;
+
+}
+
+#leftDiv a{
+text-decoration: none;
+	color: #E7A31A;
+	float: left;
+	margin-top: 15%;
+	margin-left: 3%;
+
+}
+
+#rightDiv{
+	float: left;
+	background-color: #343434;
+	height:100%;
+	width: 65%;
+	padding:1%
+	
+}
+
+  
+h2, .temp{
+
+	color: #8B8C8E;
+	margin-left: 3%;
+	width: 80%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container{
+	width: 75%;
+	margin-left: 20%;
+	color: #8B8C8E;
+	float: left;
+
+}
+
+#forgot{
+float: right;
+position: inline-block;
+text-decoration: none;
+	color: #E7A31A;
+}
+
+#forgot.hover{
+opacity: 0.8;
+}
+
+label{
+	float: left;
+}
+
+#secondDiv{
+
+background-color: white;
+width: 55%;
+
+}
+
+#footerDiv{
+background-color: #343434;
+	min-width:100%;
+	height: 7%;
+	color:white;
+	padding:  1%;
+
+}
+
+#footerDiv p{
+	float: right;
+	margin-top: 2.5%;
+	margin-right: 2%;
+}
+
+#footerDiv a{
+	
+text-decoration: none;
+	color: #E7A31A;
+	margin-top: 2.5%;
+	float: left;
+
+}
+	
+
+.mainDiv2{
+	margin-top: 5%;
+	margin-left: 10%;
+	background-color: #464646;
+	width: 80%;
+  display: flex;
+
+
+}
+
+.mainDiv{
+	margin-top: 5%;
+	margin-left: 10%;
+	background-color: #464646;
+	width: 80%;
+  color: white;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+
+
+}
+
+.mainDiv p{
+
+float: left;
+margin-left: 15%;
+
+}
+
+.wrapper{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+	background-color: #232323;
+	position: relative;
+	overflow: hidden;
+}
+
+.openB{
+	width: 20%;
+	float: right;
+	position: inline-block;
+	background-color: #E7A31A;
+	color:white;
+ border: none;
+  cursor: pointer;
+  padding: 1%;
+  margin-top:1%;
+}
+
+	.accepted{
+	width: 15%;
+	float: right;
+	position: inline-block;
+	background-color:#07bc0d;
+	color:white;
+ border: none;
+  cursor: pointer;
+  padding: 1%;
+  margin-top:1%;
+  margin-right:1%;
+}	
+
+.rejected{
+	width: 15%;
+	float: right;
+	position: inline-block;
+	background-color:#e50000;
+	color:white;
+ border: none;
+  cursor: pointer;
+  padding: 1%;
+  margin-top:1%;
+  margin-right:1%;
+}
+.pross{
+	width: 15%;
+	float: right;
+	position: inline-block;
+	background-color:#545454;
+	color:white;
+ border: none;
+  cursor: pointer;
+  padding: 1%;
+  margin-top:1%;
+  margin-right:1%;
+}
+/* --------------------------------------------------------------------------- */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  color: white;
+}
+
+.loginmenu a:hover, .dropdown:hover .dropbtn {
+  background-color: #FF9A00;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#leftdrop{
+float:right;  
+}
+
+h3{
+margin-left: 10%;
+
+}
+
+.outter{
+width: 90%;
+margin-left: 5%;
+}
+
+.outter p{
+display: block;
+width: 50%;
+}
+
+b{
+color: #ffae33;
+}
